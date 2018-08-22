@@ -1,0 +1,73 @@
+.time-axis{
+	margin-top: 60px;
+	padding: 0;
+	position: relative;
+}
+
+.time-axis:before{
+	content: '';
+	position: absolute;
+	left: 111px;
+	top: 15px;
+	width: 1px;
+	height: 100%;
+	background-color: #E4E4E4;
+}
+.time-axis-item{
+	list-style: none;
+	padding-left: 150px;
+	position: relative;
+	line-height: 45px;
+	font-size: 16px;
+	color: #141414;
+}
+.time-axis-achievement{
+	margin: 0;
+}
+.time-axis-date{
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #666;
+	padding-left:10px;
+}
+
+.time-axis-date span{
+	position: absolute;
+	right: -30px;
+	top: 35%;
+	display: block;
+	width: 13px;
+	height: 13px;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+	background-color: #fff;
+}
+.time-axis-date span:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 7px;
+	height: 7px;
+	margin: auto;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+}
+
+.time-axis-item:last-child .time-axis-date span{
+	border-color: #48BEB2;
+}
+
+.time-axis-item:last-child .time-axis-date span:after{
+	background-color: #48BEB2;
+	border-color: #48BEB2;
+}
+.timehead.contrainer{background-color: #ccc;height:60px;line-height: 60px;}
+.timehead a{display:block;color:#000;text-decoration: none;}
+.container{margin-top:30px;padding-left:240px;padding-right:20px;}
+.container h1{float: left;width: 100%;margin-top:20px;font-size: 20px;line-height: 22px;}
+.container h1:after {display: block;width: 80px;height: 2px;margin-top: 5px;background: #f16c20;content: "";}

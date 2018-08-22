@@ -1,0 +1,28 @@
+.vidbacking-active-block-back{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	height:auto;
+	width:auto;
+	z-index: -100;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.vidbacking{
+	display: none;
+}
+.vidmask-block-back{
+	background: url(../images/videooverlay.png) repeat;
+	opacity: 1;
+	min-height: 100%;
+	min-width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: auto;
+	height:auto;
+	z-index: -50;
+	display: block;
+}
